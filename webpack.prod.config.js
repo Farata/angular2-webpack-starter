@@ -46,7 +46,7 @@ module.exports = {
       compress: {screw_ie8 : true},
       mangle: {
         screw_ie8 : true,
-        except: ['RouterLink'] // TODO: Remove after #6678 fixed
+        except: ['RouterLink'] // TODO: Remove after https://github.com/angular/angular/issues/6678 is fixed
       }
     })
   ],
