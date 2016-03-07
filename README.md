@@ -20,5 +20,5 @@ npm run serve:dist will do this:
 TODO:
 
 - inject baseURL to index.html
-- minify HTML (only css and js for now)
+- minify HTML (currently only css and js are optimized)
 - add support for unit tests
