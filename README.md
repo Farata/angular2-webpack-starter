@@ -11,10 +11,12 @@ In short:
 2. Run npm install
   
 
-Run npm start to start the Webpack development server in development mode and serve a non-optimized application. 
+npm start will start the Webpack development server in development mode and serve a non-optimized application. 
 
-Run npm run serve:dist that will run npm run build to create optimized bundles in the dist directory, 
-and will start a static web server and serve the optimized version of the application. 
+npm run serve:dist will do this:
+- create optimized bundles in the dist directory 
+- start a static web server
+- serve the optimized version of the application 
 
 
 TODO:
