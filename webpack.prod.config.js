@@ -27,7 +27,7 @@ module.exports = {
       {test: /\.css$/,  loader: 'to-string!css', exclude: /node_modules/}, // Inline CSS into components
       {test: /\.css$/,  loader: 'style!css', exclude: /src/}, // Add CSS as style tag to index.html
       {test: /\.html$/, loader: 'raw'},
-      {test: /\.ts$/,   loader: 'ts'}
+      {test: /\.ts$/,   loader: 'ts', query: {compilerOptions: {noEmit: false}}}
     ],
     noParse: [path.join(__dirname, 'node_modules', 'angular2', 'bundles')]
   },
