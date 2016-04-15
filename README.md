@@ -1,4 +1,4 @@
-# ng2-webpack-starter - Angular 2 Webpack starter project
+# angular2-webpack-starter - Angular 2 Webpack starter project
 
 This project is used in the book "Angular 2 Development with TypeScript":
 https://manning.com/books/angular-2-development-with-typescript. For detailed explanation read Chapter 10 of this book.
