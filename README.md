@@ -7,18 +7,17 @@ In short:
 
 1. Clone the project
 2. Run npm install
-  
 
-npm start will start the Webpack development server in development mode and serve a non-optimized application. 
+
+npm start will start the Webpack development server in development mode and serve a non-optimized application.
 
 npm run serve:dist will do this:
-- create optimized bundles in the dist directory 
+- create optimized bundles in the dist directory
 - start a static web server
-- serve the optimized version of the application 
+- serve the optimized version of the application
 
 
 TODO:
 
 - inject baseURL to index.html
 - minify HTML (currently only css and js are optimized)
-- add support for unit tests
