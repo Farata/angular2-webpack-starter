@@ -18,4 +18,3 @@ In short:
 TODO:
 
 - inject baseURL to index.html
-- minify HTML (currently only CSS and JS are optimized)

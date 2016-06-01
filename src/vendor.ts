@@ -1,13 +1,10 @@
-// Polyfills
-import 'angular2/bundles/angular2-polyfills';
+import 'zone.js/dist/zone';
+import 'reflect-metadata/Reflect.js';
+import '@angular/platform-browser-dynamic';
+import '@angular/http';
+import '@angular/router';
 
-// Angular modules
-import 'angular2/platform/browser';
-import 'angular2/core';
-import 'angular2/http';
-import 'angular2/router';
-
-// RxJS
-import 'rxjs';
+// RxJS - comment it our if not using or import specific functions
+//import 'rxjs';
 
 // Other vendor libraries
