@@ -12,7 +12,8 @@
     "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 8080",
     "preserve:dist": "npm run build",
     "serve:dist": "static dist -H '{\"Cache-Control\": \"no-cache, must-revalidate\"}' -z",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "test-headless": "karma start karma.headless.conf.js"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
@@ -28,6 +29,7 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.9.1",
     "compression-webpack-plugin": "^0.3.1",
     "copy-webpack-plugin": "^3.0.1",
     "css-loader": "^0.23.1",
@@ -39,6 +41,7 @@
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
     "karma-mocha-reporter": "^2.0.0",
+    "karma-phantomjs-launcher": "^1.0.1",
     "karma-webpack": "^1.7.0",
     "node-static": "^0.7.7",
     "raw-loader": "^0.5.1",
