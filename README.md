@@ -14,7 +14,3 @@ In short:
 - create optimized bundles in the dist directory
 - start a static web server
 - serve the optimized version of the application
-
-TODO:
-
-- inject baseURL to index.html
